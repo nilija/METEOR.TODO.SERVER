@@ -1,0 +1,177 @@
+<template name="dashboardLayout">
+    <!--Inline style for this template-->
+    <style>
+        .menu .btn {
+            float:none;
+            margin-top: -25px;
+        }
+        .well {
+            height: 15px;
+        }
+        #iContainer {
+            margin-top: -21px;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="/assets/css/sidebar.css">
+    <div id="wrapper">
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <div id="sbNav" class="sidebar-nav list-group panel" style="color: #ACACAC;background-color: #000000;border-color: #000000;">
+                <div class="sidebar-brand">
+                    <a id="home" href="#" class="list-group-item" data-toggle="collapse" data-parent="#sidebar-wrapper"
+                       style="color: #ACACAC;background-color: #000000;border-color: #000000;" onMouseOver="this.style.color='#ffffff';this.style.backgroundColor='#333333'" onMouseOut="this.style.color='#acacac';this.style.backgroundColor='#000000'">
+                        &nbsp;<u>FTS</u>
+                    </a>
+                </div>
+                <a id="tiketi" href="#" class="list-group-item" data-toggle="collapse" data-parent="#sidebar-wrapper"
+                   style="color: #ACACAC;background-color: #000000;border-color: #000000;" onMouseOver="this.style.color='#ffffff';this.style.backgroundColor='#333333'" onMouseOut="this.style.color='#acacac';this.style.backgroundColor='#000000'">
+                    &nbsp;Tiketi</a>
+                {{#if isIzvestaji}}
+                    <a href="#oIzvestaji" class="list-group-item" data-toggle="collapse" data-parent="#sidebar-wrapper"
+                       style="color: #ACACAC;background-color: #000000;border-color: #000000;" onMouseOver="this.style.color='#ffffff';this.style.backgroundColor='#333333'" onMouseOut="this.style.color='#acacac';this.style.backgroundColor='#000000'">
+                        &nbsp;Izveštaji<i class="fa fa-caret-down pull-right"></i></a>
+                    <div class="collapse" id="oIzvestaji">
+                        <a class="list-group-item" style="color: #ACACAC;background-color: #000000;border-color: #000000;" onMouseOver="this.style.color='#ffffff';this.style.backgroundColor='#333333'" onMouseOut="this.style.color='#acacac';this.style.backgroundColor='#000000'" href="/rPriority">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Prioritet izvšenja</a>
+                        <a class="list-group-item" style="color: #ACACAC;background-color: #000000;border-color: #000000;" onMouseOver="this.style.color='#ffffff';this.style.backgroundColor='#333333'" onMouseOut="this.style.color='#acacac';this.style.backgroundColor='#000000'" href="/rInterventions">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tip intervencije</a>
+                        <a class="list-group-item" style="color: #ACACAC;background-color: #000000;border-color: #000000;" onMouseOver="this.style.color='#ffffff';this.style.backgroundColor='#333333'" onMouseOut="this.style.color='#acacac';this.style.backgroundColor='#000000'" href="/rUsers">   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Zaposleni</a>
+                        <a class="list-group-item" style="color: #ACACAC;background-color: #000000;border-color: #000000;" onMouseOver="this.style.color='#ffffff';this.style.backgroundColor='#333333'" onMouseOut="this.style.color='#acacac';this.style.backgroundColor='#000000'" href="/rVanRadnogVremena">   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Vreme izvršenja</a>
+                        <a class="list-group-item" style="color: #ACACAC;background-color: #000000;border-color: #000000;" onMouseOver="this.style.color='#ffffff';this.style.backgroundColor='#333333'" onMouseOut="this.style.color='#acacac';this.style.backgroundColor='#000000'" href="/rMesecni">   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mesecni: prioritet, aktivnost</a>
+                        <a class="list-group-item" style="color: #ACACAC;background-color: #000000;border-color: #000000;" onMouseOver="this.style.color='#ffffff';this.style.backgroundColor='#333333'" onMouseOut="this.style.color='#acacac';this.style.backgroundColor='#000000'" href="/rLokacije">   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lokacije</a>
+
+                    </div>
+                {{/if}}
+                {{#if isAdmin}}
+                    <a id="korisnici" href="#" class="list-group-item" data-toggle="collapse" data-parent="#sidebar-wrapper"
+                       style="color: #ACACAC;background-color: #000000;border-color: #000000;" onMouseOver="this.style.color='#ffffff';this.style.backgroundColor='#333333'" onMouseOut="this.style.color='#acacac';this.style.backgroundColor='#000000'">
+                        &nbsp;Komitenti</a>
+                    <a href="#oSifarnici" class="list-group-item" data-toggle="collapse" data-parent="#sidebar-wrapper"
+                       style="color: #ACACAC;background-color: #000000;border-color: #000000;" onMouseOver="this.style.color='#ffffff';this.style.backgroundColor='#333333'" onMouseOut="this.style.color='#acacac';this.style.backgroundColor='#000000'">
+                        &nbsp;Osnovni šifarnici<i class="fa fa-caret-down pull-right"></i></a>
+                    <div class="collapse" id="oSifarnici">
+                        <a class="list-group-item" style="color: #ACACAC;background-color: #000000;border-color: #000000;" onMouseOver="this.style.color='#ffffff';this.style.backgroundColor='#333333'" onMouseOut="this.style.color='#acacac';this.style.backgroundColor='#000000'" href="/users">        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Korisnici</a>
+                        <a class="list-group-item" style="color: #ACACAC;background-color: #000000;border-color: #000000;" onMouseOver="this.style.color='#ffffff';this.style.backgroundColor='#333333'" onMouseOut="this.style.color='#acacac';this.style.backgroundColor='#000000'" href="/authorities">  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ovlašćenja korisnika</a>
+                        <a class="list-group-item" style="color: #ACACAC;background-color: #000000;border-color: #000000;" onMouseOver="this.style.color='#ffffff';this.style.backgroundColor='#333333'" onMouseOut="this.style.color='#acacac';this.style.backgroundColor='#000000'" href="/zones">        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Korisničke zone</a>
+                        <a class="list-group-item" style="color: #ACACAC;background-color: #000000;border-color: #000000;" onMouseOver="this.style.color='#ffffff';this.style.backgroundColor='#333333'" onMouseOut="this.style.color='#acacac';this.style.backgroundColor='#000000'" href="/years">        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Godine rada</a>
+                        <a class="list-group-item" style="color: #ACACAC;background-color: #000000;border-color: #000000;" onMouseOver="this.style.color='#ffffff';this.style.backgroundColor='#333333'" onMouseOut="this.style.color='#acacac';this.style.backgroundColor='#000000'" href="/interventions">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Vrste intervencija</a>
+                        <a class="list-group-item" style="color: #ACACAC;background-color: #000000;border-color: #000000;" onMouseOver="this.style.color='#ffffff';this.style.backgroundColor='#333333'" onMouseOut="this.style.color='#acacac';this.style.backgroundColor='#000000'" href="/priorities">   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tipovi prioriteta</a>
+                        <a class="list-group-item" style="color: #ACACAC;background-color: #000000;border-color: #000000;" onMouseOver="this.style.color='#ffffff';this.style.backgroundColor='#333333'" onMouseOut="this.style.color='#acacac';this.style.backgroundColor='#000000'" href="/activities">   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Aktivnosti tiketa</a>
+                        <a class="list-group-item" style="color: #ACACAC;background-color: #000000;border-color: #000000;" onMouseOver="this.style.color='#ffffff';this.style.backgroundColor='#333333'" onMouseOut="this.style.color='#acacac';this.style.backgroundColor='#000000'" href="/services">     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Servis</a>
+                    </div>
+                {{/if}}
+            </div>
+        </div>
+
+        <!-- /#sidebar-wrapper -->
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12 text-center text-info" style="margin-top:-20px;">
+                        <em><b>Fratello Ticketing System (FTS)</b></em>
+                    </div>
+                    <div class="col-lg-12 well menu">
+                        <table>
+                            <tr>
+                                <td class="pull-left">
+                                    <a href="#menu-toggle" class="btn btn-default btn-xs tooltip-right" id="menu-toggle" data-tooltip="Menu">
+                                        <span><i class="glyphicon glyphicon-th-list"></i></span>
+                                    </a>
+                                </td>
+                                <td width="100%" id="toolbarMenu">
+                                    <table width="100%" style="margin-top: -21px;">
+                                        <tr width="100%">
+                                            <td width="30%">
+                                            </td>
+                                            <td width="40%" class="text-center">
+                                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                <a style="margin-top: 0px;" class="btn btn-default btn-xs tooltip-left" id="tiketiS" data-tooltip="Tiketi">
+                                                    <i class="text-default glyphicon glyphicon-tags"></i>
+                                                </a>
+                                            </td>
+
+                                            <td width="30%">
+                                                <a data-toggle="modal" data-target="#modalPassword" style="margin-top: 0px;" class="btn btn-default btn-xs tooltip-left pull-right" id="changePassword" data-tooltip="Promena lozinke">
+                                                    <i class="text-success glyphicon glyphicon-user"></i>
+                                                </a>
+                                                {{#if isAdmin}}
+                                                    <a style="margin-top: 0px;" class="btn btn-default btn-xs tooltip-left pull-right" id="redosled" data-tooltip="Redosled tiketa">
+                                                        <i class="text-danger glyphicon glyphicon-fire"></i>
+                                                    </a>
+                                                {{else}}
+                                                    {{#if isToDo}}
+                                                        <a style="margin-top: 0px;" class="btn btn-default btn-xs tooltip-left pull-right" id="redosled" data-tooltip="Redosled tiketa">
+                                                            <i class="text-danger glyphicon glyphicon-fire"></i>
+                                                        </a>
+                                                    {{else}}
+                                                    <a style="margin-top: 0px;" class="btn btn-default btn-xs tooltip-left pull-right" id="tiketiKS" data-tooltip="Korisnički servis">
+                                                        <i class="text-danger glyphicon glyphicon-fire"></i>
+                                                    </a>
+                                                    {{/if}}
+                                                {{/if}}
+
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                                <td class="pull-right" style="display:inline-block;">
+                                    <a href="#" class="btn btn-default btn-xs tooltip-left" id="logout" data-tooltip="Odjava">
+                                        <i class="text-danger glyphicon glyphicon-log-out"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div id="iContainer" class="col-lg-12">
+                        {{>yield}}
+                    </div>
+                </div>
+            </div>
+            <!-- Footer -->
+            <div class="row-centered" style="margin-top: -6px;">
+                <hr>
+                <div style="margin-top: -18px;">
+                    <h6><em>Copyright &copy; 2017 by DA Fratello.</em><br/>All Rights Reserved.</h6>
+                </div>
+            </div>
+            <!-- /#footer -->
+        </div><!-- /#page-content-wrapper -->
+    </div><!-- /#wrapper -->
+
+
+    <div class="modal fade" id="modalPassword" tabindex="-1" role="dialog" aria-labelledby="modalPasswordLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                    </button>
+                    <h4 class="modal-title" id="modalPasswordLabel">{{modalTitle}}</h4>
+                </div>
+                <div class="modal-body">
+                    {{modalBody}}
+                </div>
+                <div class="modal-footer">
+                    {{modalFooter}}
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modalMigracija" tabindex="-1" role="dialog" aria-labelledby="modalMigracijaLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                    </button>
+                    <h4 class="modal-title" id="modalPasswordLabel">{{modalMTitle}}</h4>
+                </div>
+                <div class="modal-body">
+                    {{modalMBody}}
+                </div>
+                <div class="modal-footer">
+                    {{modalMFooter}}
+                </div>
+            </div>
+        </div>
+    </div>
+</template>

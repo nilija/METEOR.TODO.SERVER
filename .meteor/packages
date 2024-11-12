@@ -1,0 +1,46 @@
+# Meteor packages used by this project, one per line.
+#
+# 'meteor add' and 'meteor remove' will edit this file for you,
+# but you can also edit it by hand.
+
+accounts-base
+accounts-password
+iron:router
+maximdubrovin:wait-on-lib-js
+sacha:spin
+http
+email
+aslagle:reactive-table
+mizzao:bootstrap-3
+anti:i18n
+linto:fontawesome
+zimme:bootstrap-growl
+mrt:highcharts
+mrt:jquery-ui
+usefulio:sync-methods
+pascoual:pdfkit
+ashutosh:email-att
+meteor-base
+mobile-experience
+mongo
+blaze-html-templates
+session
+jquery
+tracker
+logging
+reload
+random
+ejson
+spacebars
+check
+standard-minifier-css
+standard-minifier-js
+shell-server
+dynamic-import
+underscore
+cfs:standard-packages
+cfs:filesystem
+meteorhacks:async
+
+service-configuration               # Manage the configuration for third-party services
+standard-minifiers

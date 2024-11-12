@@ -1,0 +1,28 @@
+<template name="activities">
+
+    <link rel="stylesheet" type="text/css" href="/assets/css/reactiveTables.css">
+    <form>
+    <div class="nameAdd"></div>
+    <div class="filter">{{> reactiveTableFilter id="myFilter" label="Filter" }}</div>
+    </form>
+    <div class="table-responsive" style="padding: 15px;">
+      {{> reactiveTable collection=activities settings=settings }}
+    </div>
+
+    <div class="modal fade" id="modalActivities" tabindex="-1" role="dialog" aria-labelledby="modalActivitiesLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                    <h4 class="modal-title" id="modalActivitiesLabel">{{modalTitle}}</h4>
+                </div>
+                <div class="modal-body">
+                    {{modalBody}}
+                </div>
+                <div class="modal-footer">
+                    {{modalFooter}}
+                </div>
+            </div>
+        </div>
+    </div>
+</template>

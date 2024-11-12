@@ -1,0 +1,6 @@
+_misc/
+node_modules/
+.meteorignore
+.idea/
+*.zip
+*.tar.xz

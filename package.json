@@ -1,0 +1,12 @@
+{
+  "name": "ftssrb",
+  "private": true,
+  "scripts": {
+    "start": "meteor run",
+    "visualize": "meteor --production --extra-packages bundle-visualizer"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.16.7",
+    "bcrypt": "^5.0.1"
+  }
+}

@@ -1,0 +1,34 @@
+<template name="years">
+    <div class="container">
+        <header>
+            <h1>Godina rada ({{checkedCount}})</h1>
+            <form class="new-year">
+                <input type="godina" name="godina" placeholder="Type to add new years" />
+            </form>
+        </header>
+
+        <ul>
+          {{#each years}}
+            {{> year}}
+          {{/each}}
+        </ul>
+
+    </div>
+</template>
+
+    <template name="year">
+        <li class="{{#if checked}}checked{{/if}}">
+
+            <button class="delete"><span class="btn-danger glyphicon glyphicon-remove-circle"></span></button>
+
+            <input type="checkbox" checked="{{checked}}" class="toggle-checked" />
+
+            <span class="godina">{{Year}}</span>
+
+
+
+
+
+        </li>
+    </template>
+

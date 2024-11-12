@@ -1,0 +1,57 @@
+<template name="redosled">
+        <link rel="stylesheet" type="text/css" href="/assets/css/reports.css">
+        <div id="forPrint" class="">
+            <table class="tftable" border="1">
+                <thead>
+                <tr>
+                    <th style="width:  90%; text-align:left;">
+                        <h3 class="page-header" style="color: rgb(250, 250, 250)">
+                            <b><em>ToDo Lista</em></b>
+                        </h3>
+                    </th>
+                    <th style="width:  10%; text-align:center;">
+ <!--                       <h4 class="pull-left" style="color: rgb(250, 250, 250);"><em><strong>čekirajte:</strong></em></h4>-->
+                        <input id="cb1" type="checkbox" value="cOtvoreni"  style="margin-right:-5px;" disabled/><label id="fOtvoreni"  type="" class="btn btn-xs btn-success tooltip-bottom" data-tooltip="Otvoreni"  ><i class="text-success              glyphicon glyphicon-folder-open"></i> </label>
+                        <input id="cb2" type="checkbox" value="cPostupak"  style="margin-right:-5px;" disabled/><label id="fPostupak"  type="" class="btn btn-xs btn-info tooltip-bottom"    data-tooltip="U postupku"><i class="text-success text-primary glyphicon glyphicon-file"></i>        </label>
+                    </th>
+                </tr>
+                </thead>
+
+            </table>
+
+            <table class="tftable" border="1"><tbody>
+                <thead>
+                <tr>
+                    <th style="width:  2%; text-align: left;">#</th>
+                    <th style="width: 28%; text-align: left;">Komitent</th>
+                    <th style="width: 10%; text-align: left;">Datum</th>
+                    <th style="width: 29%; text-align: left;">Problem</th>
+                    <th style="width: 15%; text-align: left;">Prioritet</th>
+                    <th style="width: 11%; text-align: left;">Zadužen</th>
+                    <th style="width:  8%; text-align: left;">Aktivnost</th>
+                </tr>
+                </thead>
+                <tr> {{> redosled_}}</tr>
+                </tbody>
+            </table>
+            <div class="row">
+                <hr />
+            </div>
+        </div>
+    </template>
+<template name="redosled_">
+
+        <div id="red">
+            {{#each readTickets}}
+            <tr>
+                <th style="width:  2%; text-align: left;"> {{ToDo}} </th>
+                <th style="width: 27%; text-align: left;"> {{Komitent}} </th>
+                <th style="width: 10%; text-align: left;"> {{DatumOtvaranja}} </th>
+                <th style="width: 28%; text-align: left;"> {{OpisProblema}} </th>
+                <th style="width: 15%; text-align: left;"> {{Prioritet}} </th>
+                <th style="width: 10%; text-align: left;"> {{Zaduzen}} </th>
+                <th style="width:  8%; text-align: left;"> {{Aktivnost}} </th>
+            </tr>
+            {{/each}}
+        </div>
+</template>

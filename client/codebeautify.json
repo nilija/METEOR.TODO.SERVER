@@ -1,0 +1,1005 @@
+﻿[
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. ADAŠEVCI",
+		"Adresa": "Auto-put BG-ZG",
+		"Mesto": "Adaševci",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9622",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. APATIN-MARINA",
+		"Adresa": "Dunavska obala bb",
+		"Mesto": "Apatin",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9681",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. ARANĐELOVAC 2",
+		"Adresa": "Zanatlijska b.b.",
+		"Mesto": "Aranđelovac",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9871",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. AVALSKI PUT",
+		"Adresa": "Trg oslobođenja 343",
+		"Mesto": "Beograd",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-5919",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. BAČKA PALANKA",
+		"Adresa": "Obrovački put bb",
+		"Mesto": "Bačka Palanka",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9659",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. BAČKA TOPOLA-VAŠARIŠTE",
+		"Adresa": "Vašarište bb",
+		"Mesto": "Bačka Topola",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9584",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. BAGRDAN",
+		"Adresa": "Autoput Niš-Beograd",
+		"Mesto": "Bagrdan",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9979",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. BAJINA BAŠTA",
+		"Adresa": "Svetosavska 4/1",
+		"Mesto": "Bajina Bašta",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9959",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. BEOČIN",
+		"Adresa": "Kamenički put bb",
+		"Mesto": "Beočin",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9643",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. BEOGRAD SEVER",
+		"Adresa": "Bulever Kralja Aleksandra 457",
+		"Mesto": "Beograd",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9815",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. BLOK 45",
+		"Adresa": "Jurija Gagarina bb",
+		"Mesto": "Beograd",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9753",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. BLOK 66",
+		"Adresa": "Bulevar Heroja sa Košara bb",
+		"Mesto": "Beograd",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9968",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. BOR 1",
+		"Adresa": "Nikole Pasica br 56",
+		"Mesto": "Bor",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9712",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. CARINA",
+		"Adresa": "Vojvode Stepe bb",
+		"Mesto": "Smederevo",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9862",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. ČAČAK 1",
+		"Adresa": "Ulica 10 bb",
+		"Mesto": "Čačak",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9914",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. ČARLI ČAPLINA",
+		"Adresa": "Čarli Čaplina bb",
+		"Mesto": "Beograd",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9784",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. ČUKARICA",
+		"Adresa": "Radnička 2",
+		"Mesto": "Beograd",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9812",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. DUNAV",
+		"Adresa": "Pančevački put 32d",
+		"Mesto": "Beograd",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9809",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. DŽONA KENEDIJA",
+		"Adresa": "Džona Kenedija 10",
+		"Mesto": "Beograd",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9827",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. ĐAČKO OSTRVO",
+		"Adresa": "Vizantijski bulevar bb",
+		"Mesto": "Niš",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9721",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. FONTANA",
+		"Adresa": "Autoput Niš-Beograd",
+		"Mesto": " ",
+		"OdgovornoLice": "Gornja Toponica",
+		"Telefon": " 18000 Niš",
+		"email": "",
+		"Zona": "064/888-9719"
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. FRANCUSKA",
+		"Adresa": "Vanizelisova bb",
+		"Mesto": "Beograd",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9791",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. Franjo Krč",
+		"Adresa": "Batajnički drum bb",
+		"Mesto": "Beograd",
+		"OdgovornoLice": "",
+		"Telefon": "064/845-3550",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. GORNJI MILANOVAC 2",
+		"Adresa": "Obilazni put bb",
+		"Mesto": "Gornji Milanovac",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9912",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. JAGODINA 2",
+		"Adresa": "Knjeginje Milice b.b.",
+		"Mesto": "Jagodina",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9845",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. KLADOVO",
+		"Adresa": "Karataški put bb",
+		"Mesto": "Kladovo",
+		"OdgovornoLice": "",
+		"Telefon": "064/8088406",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. KOVIN",
+		"Adresa": "Smederevski put bb",
+		"Mesto": "Kovin",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9574",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. KRAGUJEVAC 2",
+		"Adresa": "Lepenički bulevar b.b.",
+		"Mesto": "Kragujevac",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9833",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. KRAGUJEVAC 3 - STANOVO",
+		"Adresa": "Kraljevački bataljon",
+		"Mesto": "Kragujevac",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9874",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. KRAGUJEVAC 5",
+		"Adresa": "Lepenički bulevar b.b.",
+		"Mesto": "Kragujevac",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9832",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. KRAGUJEVAC 7 - ELEKTROŠUMADIJA",
+		"Adresa": "Miodraga Vlajića Šuke b.b.",
+		"Mesto": "Kragujevac",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9875",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. KRALJEVO 2",
+		"Adresa": "Čibukovac bb",
+		"Mesto": "Kraljevo",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9885",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. KRALJEVO 3",
+		"Adresa": "Olge Jovičić bb",
+		"Mesto": "Kraljevo",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9887",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. KRUŠEVAC 1",
+		"Adresa": "Gazimestanski trg bb",
+		"Mesto": "Kruševac",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9888",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. KRUŠEVAC 3",
+		"Adresa": "Blagoja Parovića bb",
+		"Mesto": "Kruševac",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9890",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. KRUŠEVAC 5",
+		"Adresa": "Kosovska bb",
+		"Mesto": "Kruševac",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9889",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. KULA",
+		"Adresa": "Marsala Tita bb",
+		"Mesto": "Kula",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9676",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. LAZAREVAC-GRAD",
+		"Adresa": "Dula Karaklajića",
+		"Mesto": "Lazarevac",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9928",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. LEDENA STENA",
+		"Adresa": "Dimitrija Tucovića bb",
+		"Mesto": "Niš",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9702",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. LOZNICA",
+		"Adresa": "Luke Stevića bb",
+		"Mesto": "Loznica",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9943",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. LOZOVIČKA ČESMA",
+		"Adresa": "Autoput Beograd - Niš",
+		"Mesto": "Lozovik",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9879",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. MALI POŽAREVAC",
+		"Adresa": "Autoput Niš - Beograd",
+		"Mesto": "Sopot",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9876",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. MEDIJANA 1",
+		"Adresa": "Bulevar Cara Konstantina bb",
+		"Mesto": "Niš",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9718",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. MEDIJANA 2",
+		"Adresa": "Bulevar Cara Konstantina bb",
+		"Mesto": "Niš",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9722",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. NAIS",
+		"Adresa": "Autoput Bg-Niš",
+		"Mesto": "Gornja Toponica",
+		"OdgovornoLice": " 18000 Niš",
+		"Telefon": "",
+		"email": "064/888-9720",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. NIŠ-AUTOPUT",
+		"Adresa": "Bulevar Nikole Tesle bb",
+		"Mesto": "Niš",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9728",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. NOVA VAROŠ",
+		"Adresa": "Magistralni put bb.",
+		"Mesto": "Nova Varoš",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9955",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. NOVI BEOGRAD (Dejton)",
+		"Adresa": "Bulevar Mihajla Pupina bb",
+		"Mesto": "Beograd",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9813",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. NOVI PAZAR 2",
+		"Adresa": "S. Kovačevića bb",
+		"Mesto": "Novi Pazar",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9881",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. NOVI SAD 1",
+		"Adresa": "Maksima Gorkog 1",
+		"Mesto": "Novi Sad",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9633",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. NOVI SAD 10",
+		"Adresa": "Sent Andrejski put bb",
+		"Mesto": "Novi Sad",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9652",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. NOVI SAD 11",
+		"Adresa": "Bulevar Cara Lazara bb",
+		"Mesto": "Novi Sad",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9660",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. NOVI SAD 16",
+		"Adresa": "Auto put NS-BG",
+		"Mesto": "Novi Sad",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9661",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. NOVI SAD 4",
+		"Adresa": "Futoški put 93/d",
+		"Mesto": "Novi Sad",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9635",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. NOVI SAD 5",
+		"Adresa": "Sent Andrejski put bb",
+		"Mesto": "Novi Sad",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9650",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. NOVI SAD 7",
+		"Adresa": "Rumenački put bb",
+		"Mesto": "Novi Sad",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9651",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. NOVO MIRIJEVO",
+		"Adresa": "Mihaila Bulgakova 2",
+		"Mesto": "Beograd",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9783",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. OBRENOVAC GRAD",
+		"Adresa": "Cara Lazara 1",
+		"Mesto": "Obrenovac",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9793",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. PALIĆ ",
+		"Adresa": "Splitska aleja bb",
+		"Mesto": "Palić",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9583",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. PIROT 3",
+		"Adresa": "Nikole Pašića bb",
+		"Mesto": "Pirot",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9724",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. PLINARA",
+		"Adresa": "Miloša Obrenovića 8",
+		"Mesto": "Pančevo",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9575",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. POŽAREVAC 1",
+		"Adresa": "Čede Vasović br 1",
+		"Mesto": "Požarevac",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9854",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. PRELJINA 2",
+		"Adresa": "Preljina bb",
+		"Mesto": "Preljina",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9911",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. RUMA 1",
+		"Adresa": "Vladimira Nazora bb",
+		"Mesto": "Ruma",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9624",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. SAVA",
+		"Adresa": "Bulevar Arsenija Čarnojevića 30a",
+		"Mesto": "Beograd",
+		"OdgovornoLice": "",
+		"Telefon": "064/845-3585",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. SAVA MOST",
+		"Adresa": "Jevrejska bb",
+		"Mesto": "Šabac",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9951",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. SERVIS",
+		"Adresa": "Kralja Petra I 7",
+		"Mesto": "Mladenovac",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9877",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. SEVOJNO 2",
+		"Adresa": "Prvomajska bb",
+		"Mesto": "Sevojno",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9957",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. SOMBOR 2",
+		"Adresa": "Filipa Kljajića bb",
+		"Mesto": "Sombor",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9672",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. SOMBOR 3",
+		"Adresa": "Konjovićeva bb",
+		"Mesto": "Sombor",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9673",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. SREMSKA MITROVICA 1",
+		"Adresa": "Arsenija Čarnojevića 48",
+		"Mesto": "Sremska Mitrovica",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9618",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. STARA ŽELEZARA",
+		"Adresa": "Goranska bb",
+		"Mesto": "Smederevo",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9863",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. STARI BANOVCI - AUTOPUT",
+		"Adresa": "Auto put BG-NS",
+		"Mesto": "Stari Banovci",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9642",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. SUBOTICA 1",
+		"Adresa": "Beogradski put 223",
+		"Mesto": "Subotica",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9580",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. SUBOTICA 2 ",
+		"Adresa": "Puškinov trg bb",
+		"Mesto": "Subotica",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9581",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. SUBOTICA 4",
+		"Adresa": "Somborski put bb",
+		"Mesto": "Subotica",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9582",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. SVILAJNAC",
+		"Adresa": "Ul. Visokog Stevana bb",
+		"Mesto": "Svilajnac",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9847",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. ŠABAC 1",
+		"Adresa": "Pocerska bb",
+		"Mesto": "Šabac",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9942",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. ŠID",
+		"Adresa": "Đure Jakšića bb",
+		"Mesto": "Šid",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9632",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. TOPOLA",
+		"Adresa": "Bulevar Vožda Karađorđa 90",
+		"Mesto": "Topola",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9870",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. TOŠIN BUNAR",
+		"Adresa": "Tošin bunar bb",
+		"Mesto": "Beograd",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9797",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. TRG OSLOBOĐENJA",
+		"Adresa": "Trg oslobođenja bb",
+		"Mesto": "Beograd",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9759",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. UB",
+		"Adresa": "Svete Popovića",
+		"Mesto": "Ub",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9934",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. UŽICE GRAD",
+		"Adresa": "Omladinska bb",
+		"Mesto": "Užice Grad I",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9953",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. VALJEVO 2",
+		"Adresa": "Vladike Nikolaja 67/a",
+		"Mesto": "Valjevo",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9925",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. VASE PELAGIĆA",
+		"Adresa": "Andre Nikolića bb",
+		"Mesto": "Beograd",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9818",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. VRNJAČKA BANJA",
+		"Adresa": "Kneza Miloša bb",
+		"Mesto": "Vrnjačka banja",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9897",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. VRŠAC 1",
+		"Adresa": "Miloša Obilića 1",
+		"Mesto": "Vršac",
+		"OdgovornoLice": "",
+		"Telefon": "064/845-3456",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. VRŠAC 2",
+		"Adresa": "Beogradski put bb",
+		"Mesto": "Vršac",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9571",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. ZLATIBOR",
+		"Adresa": "Magistralni put",
+		"Mesto": "Zlatibor",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9962",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. ZMAJ 1",
+		"Adresa": "Autoput Bgd-Zagreb izlaz",
+		"Mesto": "Beograd",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9774",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. ZMAJ 2",
+		"Adresa": "Autoput Bgd-Zagreb ulaz",
+		"Mesto": "Beograd",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9782",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. ZRENJANIN 1",
+		"Adresa": "Brigadira Ristića bb",
+		"Mesto": "Zrenjanin",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9592",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. ZRENJANIN 2",
+		"Adresa": "Beogradski put bb",
+		"Mesto": "Zrenjanin",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9593",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. ŽARKOVO 1",
+		"Adresa": "Trgovačka 74",
+		"Mesto": "Beograd",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9770",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. ŽARKOVO 2",
+		"Adresa": "Trgovačka 91",
+		"Mesto": "Beograd",
+		"OdgovornoLice": "",
+		"Telefon": "064/808-9771",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "B.S. Velika Plana",
+		"Adresa": "Autoput Bgd - Nis",
+		"Mesto": "Velika Plana",
+		"OdgovornoLice": "",
+		"Telefon": "064/8885640",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "Prodavnica KPC",
+		"Adresa": "Milentija Popovića br.1",
+		"Mesto": "Beograd",
+		"OdgovornoLice": "",
+		"Telefon": "064/888-9548",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "PC Novi Sad",
+		"Adresa": "",
+		"Mesto": "Novi Sad",
+		"OdgovornoLice": "",
+		"Telefon": "",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": "NIS a.d.",
+		"Lokacija": "PC Pancevo",
+		"Adresa": "",
+		"Mesto": "Pancevo",
+		"OdgovornoLice": "",
+		"Telefon": "",
+		"email": "",
+		"Zona": ""
+	},
+	{
+		"Komitent": ""
+	}
+]

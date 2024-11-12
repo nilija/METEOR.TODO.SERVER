@@ -1,0 +1,47 @@
+<template name="rLokacije">
+    <link rel="stylesheet" type="text/css" href="/assets/css/reports.css">
+    <!--<div class="pull-right">-->
+    <!--<input type="button" class="print" value="Print Report" onclick="PrintElem('#forPrint');" />-->
+    <!--</div>-->
+    <div id="forPrint" class="">
+        <table class="tftable" border="1">
+            <thead>
+            <tr>
+                <th style="text-align:left;">
+                    <h2 class="page-header" style="color: rgb(49, 112, 143);">
+                        <b><em>Lokacije</em></b>
+                    </h2>
+                </th>
+                {{#if imaS}}
+                    <th> {{modalIzborS}}</th>
+                {{/if}}
+                <th> {{modalIzborG}}</th>
+                <th> {{modalIzbor}}</th>
+                {{#if imaL}}
+                    <th> {{modalIzborL}}</th>
+                {{/if}}
+
+            </tr>
+            </thead>
+
+        </table>
+
+        <table class="tftable" border="1">
+            <thead>
+            <tr>
+                <th style="text-align:left;">Komitent/Lokacija</th>
+                <th>Broj završenih tiketa</th>
+                <th>Broj nezavršenih tiketa</th>
+                <th>Ukupno</th>
+            </tr>
+            </thead>
+            <tbody id="tabelica">
+            </tbody>
+        </table>
+        <div class="row">
+            <hr />
+        </div>
+        <div id="chart1Container" class="center" style="height: 300px;"></div>
+        <div id="chart2Container" class="center" style="height: 300px;"></div>
+    </div>
+</template>

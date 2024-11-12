@@ -1,0 +1,29 @@
+<template name="home">
+    <div class="well col-xs-10 col-md-6 col-lg-6 col-centered">
+      <p><h3>Fratello prijava</h3><h6 class="pull-right">version 2.5.2</h6></p>
+      <hr>
+      <form id="login-form" action="action">
+          <div class="form-group">
+              <label for="inputUsername">Korisnik:</label>
+              <input type="text" class="form-control" id="inputUsername" autofocus="autofocus">
+          </div>
+          <div class="form-group">
+              <label for="inputPassword">Lozinka:</label>
+              <input type="password" class="form-control" id="inputPassword">
+          </div>
+          <div class="checkbox pull-right">
+              <label><input type="checkbox">Zapamti me </label>
+          </div>
+          <button type="submit" class="btn btn-primary">Prijava</button>
+          <p class="text-danger row-centered" id="errorText"></p>
+      </form>
+    </div>
+    <div class="div-company">
+        <strong>DaFratello D.O.O.</strong><br/>
+        Braće Ribnikara 37<br/>
+        11000 Belgrade. Serbia<br/>
+        Phone : +381.11.30.86.024<br/>
+        Fax : +381.11.30.86.025<br/>
+        info@fratello.rs
+    </div>
+</template>

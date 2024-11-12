@@ -1,0 +1,41 @@
+<template name="preDashboardLayout">
+    <style>
+        body { padding-top: 66px; }
+    </style>
+    <div class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a href="#" class="navbar-brand">FTS</a>
+            </div>
+            <!--<div class="nav navbar-nav pull-right">-->
+                <!--<ul class="nav navbar-nav">-->
+                    <!--<li class="active">-->
+                        <!--<div class="div-company">-->
+                            <!--<strong>DaFratello D.O.O.</strong><br/>-->
+                            <!--Braće Ribnikara 37<br/>-->
+                            <!--11000 Belgrade. Serbia<br/>-->
+                            <!--Phone : +381.11.30.86.024<br/>-->
+                            <!--Fax : +381.11.30.86.025<br/>-->
+                            <!--info@fratello.rs-->
+                        <!--</div>-->
+                    <!--</li>-->
+                <!--</ul>-->
+            <!--</div>-->
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row row-centered">
+            {{>yield}}
+        </div>
+        <div class="row-centered" style="margin-top: -13px;">
+            <hr>
+            <div style="margin-top: -15px;">
+                <h6><em>Copyright &copy; 2017 by DA Fratello.</em><br/>All Rights Reserved.</h6>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer>
+        <a href="#"><em>Powered by IceBox solutions</em></a>
+    </footer>
+</template>

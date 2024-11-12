@@ -1,0 +1,141 @@
+<!-- /**
+ * Meteor: the smart way to build applications!
+ *
+ * @copyright     Copyright 2014, 
+ * @license       http://opensource.org/licenses/bsd-license.php The BSD License
+ *
+ * filename:      client/views/tickets.html
+ * generated:     2014/11/27 14:50
+ */ -->
+
+<template name="tickets">
+
+    <link rel="stylesheet" type="text/css" href="/assets/css/reactiveTables.css">
+    <style>
+        .buttons {
+/*            overflow: hidden;   -------> ovo ga sece */
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            width: 100%;
+            table-layout: fixed;
+        }
+        .Komitent, .Prioritet, .DatumOtvaranja, .Zaduzen, .OpisResenja, .Napomena, .Aktivnost, .OpisProblema, .Servis {
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            width: 100%;
+            table-layout: fixed;
+        }
+        .Naplacen {
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            width: 20px;
+          }
+        .buttonFilter {
+/*            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;*/
+/*            width: 80%;
+            text-align: center;*/
+        }
+        .filter {
+
+            /*            overflow: hidden;
+                        white-space: nowrap;
+                        text-overflow: ellipsis;*/
+/*                        width: 50%;*/
+/*                        text-align: center;*/
+        }
+        .postupak {
+            background-color: #C1E0FA !important;
+        }
+        .otvoren {
+            background-color: #C1FAD7 !important;
+        }
+        .zatvoren {
+            background-color: #FAC7C1 !important;
+        }
+        .light {
+            background-color: #f8f9fa !important;
+        }
+
+/*        primary - #007bff
+                  secondary - #6c757d
+                              success - #28a745
+                                        danger - #dc3545
+                                                 warning - #ffc107
+                                                           info - #17a2b8
+                                                                  light - #f8f9fa
+                                                                          dark - #343a40
+                                                                                 muted - #6c757d
+                                                                                         white - #ffffff
+        */
+/*        .Row {
+            display: table;
+            width: 100%; !*Optional*!
+            table-layout: fixed; !*Optional*!
+            border-spacing: 10px; !*Optional*!
+        }
+        .Column {
+            display: table-cell;
+            background-color: red; !*Optional*!
+        }
+        <div class="Row">
+        <div class="Column">C1</div>
+                                <div class="Column">C2</div>
+                                                        <div class="Column">C3</div>
+                                                                                </div>*/
+
+
+    </style>
+
+    <!--<div class="row" id="ZaAppend" style="padding: 15px;margin-bottom: -20px;"></div>-->
+    <form>
+    <table style="width:100%">
+        <tr>
+            <td style="width:8%"><div class="name"></div></td>
+            <td style="width:17%"><div class="filter">{{> reactiveTableFilter id="myFilter" label="Filter" }}</div></td>
+
+            <td style="width:74%"><div class="buttonFilter"></div></td>
+
+        </tr>
+    </table>
+    </form>
+    <div class="table-responsive" style="padding: 5px;margin-bottom: 20px;">
+
+        {{> reactiveTable collection=tickets settings=settings }}
+
+    </div>
+
+    <!--<div class="row" id="ZaAppendFooter" style="padding: 15px;margin-bottom: -20px;"></div>-->
+
+    <div class="modal fade" id="modalTickets" tabindex="-1" role="dialog" aria-labelledby="modalTicketsLabel" aria-hidden="true">
+<!--        <div class="modal-dialog modal-lg">-->
+<!--        <div class="modal-dialog" style="width:50%;">-->
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header {{colorAktivnost2}}">
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                    </button>
+                    <div style="color:#46736e;font-style:italic">
+                        <h4 class="modal-title" id="modalTicketsLabel" >{{modalTitle}}</h4>
+                    </div>
+                    <div style="float:right; width:50%;padding-top:-30px;">
+                        {{modalService}}
+                    </div>
+                        <p><br /></p>
+                </div>
+                <div class="modal-body">
+                    {{modalBody}}
+                </div>
+                <div class="modal-footer">
+                    {{modalFooter}}
+                </div>
+            </div>
+        </div>
+    </div>
+
+</template>
+<!-- End of generated file -->
